@@ -1,0 +1,44 @@
+a {
+  text-decoration: none;
+  margin: 15px;
+  font-style: italic;
+  color: grey;
+}
+
+a:hover {
+  color: blue;
+}
+
+.details{
+  background-color: lightgrey;
+  padding: 10px 15px;
+  border-left: solid 2px grey;
+}
+
+#task-list {
+  display: flex;
+}
+
+#task-list a {
+  text-decoration: none;
+  margin-right: 15px;
+  font-style: normal;
+  color: grey;
+}
+
+#task-list a:hover {
+  color: blue;
+}
+
+#container {
+  padding: 20px;
+}
+#task{
+  background-color: lightgrey;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-left: solid 2px grey;
+}
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
